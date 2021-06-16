@@ -11,8 +11,8 @@ describe Car do
   end
 
   it 'has attributes' do
-    expect(@car1.type).to be('Mail')
-    expect(@car1.weight).to be(5)
+    expect(@car1.type).to eq('Mail')
+    expect(@car1.weight).to eq(5)
   end
 
 end

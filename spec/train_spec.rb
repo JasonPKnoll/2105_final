@@ -13,9 +13,9 @@ describe Train do
   end
 
   it 'has attributes' do
-    expect(@train1.name).to be('Thomas')
-    expect(@train1.type).to be('Tank')
-    expect(@train1.cargo).to be('Tank')
+    expect(@train1.name).to eq('Thomas')
+    expect(@train1.type).to eq('Tank')
+    expect(@train1.cargo).to eq({})
   end
 
   it 'can add trains' do
